@@ -20,7 +20,10 @@ Record a walkthrough video demonstrating how to use the Logo Generator.
 
 # Usage
 
-​# Links
+https://drive.google.com/file/d/1kQWfwrtylkdGpWpjmOmiao3zdAwCUfrs/view
+
+​**Links**
+Github link- https://github.com/splacito22/karma
 
 # Credits
 
