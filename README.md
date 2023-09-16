@@ -21,6 +21,7 @@ Record a walkthrough video demonstrating how to use the Logo Generator.
 # Usage
 
 https://drive.google.com/file/d/1kQWfwrtylkdGpWpjmOmiao3zdAwCUfrs/view
+[Karma Mod 10 Logo.webm](https://github.com/splacito22/karma/assets/136421961/9ae82381-692f-4a77-9b62-7bebe1946648)
 
 ​**Links**
 Github link- https://github.com/splacito22/karma
