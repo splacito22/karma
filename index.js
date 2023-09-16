@@ -15,15 +15,15 @@ function writeToFile(fileName, answers) {
 
   svgString += `${answers.shape}`;
 
-  let shapeChoice;
+  let selectedShape;
   if (answers.shape === "Triangle") {
-    shapeChoice = new Triangle();
+    selectedShape = new Triangle();
     svgString += `<polygon points="150, 18 244, 182 56, 182" fill="${answers.shapeBackgroundColor}"/>`;
   } else if (answers.shape === "Square") {
-    shapeChoice = new Square();
+    selectedShape = new Square();
     svgString += `<rect x="73" y="40" width="160" height="160" fill="${answers.shapeBackgroundColor}"/>`;
-  } else {
-    shapeChoice = new Circle();
+  } else if (answers.shape === "Circle") {
+    selectedShape = new Circle();
     svgString += `<circle cx="150" cy="115" r="80" fill="${answers.shapeBackgroundColor}"/>`;
   }
 
@@ -65,7 +65,7 @@ inquirer
     {
       type: "input",
       message:
-        "Choose shapes color (Enter color keyword OR a hexadecimal number)",
+        "Choose shapes background color (Enter color keyword OR a hexadecimal number)",
       name: "shapeBackgroundColor",
     },
   ])
